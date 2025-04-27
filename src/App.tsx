@@ -1,4 +1,5 @@
 import { Container } from "./components/Container";
+import { Logo } from "./components/Logo";
 
 import "./styles/global.css";
 import "./styles/theme.css";
@@ -7,7 +8,19 @@ function App() {
   return (
     <>
       <Container>
-        <p>Hello my fucking lovely world</p>
+        <Logo></Logo>
+      </Container>
+
+      <Container>
+        <p>MENU</p>
+      </Container>
+
+      <Container>
+        <p>FORM</p>
+      </Container>
+
+      <Container>
+        <p>FOOTER</p>
       </Container>
     </>
   );

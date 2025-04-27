@@ -1,13 +1,11 @@
 .container {
   max-width: 98rem;
   margin: 0 auto;
-  background-color: blue;
+  padding-top: 5.2rem;
 }
 
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0rem 3.2rem;
-  background-color: red;
 }
