@@ -1,5 +1,7 @@
 import { Container } from "./components/Container";
+import { CountDown } from "./components/CountDown";
 import { Logo } from "./components/Logo";
+import { MainForm } from "./components/MainForm";
 import { Menu } from "./components/Menu";
 
 import "./styles/global.css";
@@ -17,7 +19,11 @@ function App() {
       </Container>
 
       <Container>
-        <p>FORM</p>
+        <CountDown></CountDown>
+      </Container>
+
+      <Container>
+        <MainForm></MainForm>
       </Container>
 
       <Container>
