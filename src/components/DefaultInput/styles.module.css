@@ -11,6 +11,7 @@
   transition: all 0.1s ease-in-out;
   text-align: center;
   font-size: 1.8rem;
+  margin-top: 2rem;
 }
 
 .input:focus {
@@ -20,7 +21,11 @@
 }
 
 .input::placeholder {
-  text-align: center;
   font-style: italic;
   font-size: 1.6rem;
+}
+
+.input:disabled {
+  border-bottom: 0.2rem solid var(--disabled);
+  color: var(--text-muted);
 }

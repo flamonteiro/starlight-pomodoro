@@ -1,15 +1,23 @@
 import styles from "./styles.module.css";
 
-export function DefaultInput() {
+type DefaultInputProps = {
+  id: string;
+  label: string;
+  type: string;
+} & React.ComponentProps<"input">;
+
+export function DefaultInput({ id, type, label, ...rest }: DefaultInputProps) {
   return (
     <>
-      <label className={styles.label} htmlFor="">
-        Nome da Task:
+      <label className={styles.label} htmlFor={id}>
+        {label}
       </label>
       <input
         className={styles.input}
-        type="text"
+        id={id}
+        type={type}
         placeholder="Digite Algo..."
+        {...rest}
       />
     </>
   );
