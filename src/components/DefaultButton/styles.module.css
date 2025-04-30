@@ -6,6 +6,14 @@
   height: 4.2rem;
   border: none;
   border-radius: 0.8rem;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   color: var(--gray-100);
+}
+
+.purple {
+  background-color: var(--primary);
+}
+
+.red {
+  background-color: var(--error);
 }

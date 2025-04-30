@@ -20,39 +20,3 @@
 .nextCyclePreview {
   color: var(--gray-900);
 }
-
-.cycles {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.4rem;
-}
-
-.cycles p {
-  color: var(--gray-900);
-}
-
-.cycleDots {
-  display: flex;
-  gap: 0.8rem;
-}
-
-.cycleDots span {
-  display: inline-flex;
-  width: 2.2rem;
-  height: 2.2rem;
-  border-radius: 50%;
-}
-
-.workTime {
-  background-color: var(--warning);
-}
-
-.shortBreakTime {
-  background-color: var(--success);
-}
-
-.longBreakTime {
-  background-color: var(--info);
-}

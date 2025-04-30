@@ -4,6 +4,7 @@ import { DefaultButton } from "../DefaultButton";
 import { DefaultInput } from "../DefaultInput";
 import { CirclePlayIcon } from "lucide-react";
 import { Footer } from "../Footer";
+import { Cycles } from "../Cycles";
 
 export function MainForm() {
   return (
@@ -19,26 +20,12 @@ export function MainForm() {
       </div>
 
       <div className={styles.formRow}>
-        <div className={styles.cycles}>
-          <p>Ciclos:</p>
-          <div className={styles.cycleDots}>
-            <span className={styles.workTime}></span>
-            <span className={styles.shortBreakTime}></span>
-            <span className={styles.workTime}></span>
-            <span className={styles.shortBreakTime}></span>
-            <span className={styles.workTime}></span>
-            <span className={styles.shortBreakTime}></span>
-            <span className={styles.workTime}></span>
-            <span className={styles.longBreakTime}></span>
-          </div>
-        </div>
+        <Cycles />
       </div>
 
       <div className={styles.formRow}>
         <div className={styles.buttonContainer}>
-          <DefaultButton>
-            <CirclePlayIcon />
-          </DefaultButton>
+          <DefaultButton icon={<CirclePlayIcon />} color="purple" />
         </div>
       </div>
 
