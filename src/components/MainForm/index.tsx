@@ -3,7 +3,6 @@ import styles from "./styles.module.css";
 import { DefaultButton } from "../DefaultButton";
 import { DefaultInput } from "../DefaultInput";
 import { CirclePlayIcon } from "lucide-react";
-import { Footer } from "../Footer";
 import { Cycles } from "../Cycles";
 
 export function MainForm() {
@@ -27,10 +26,6 @@ export function MainForm() {
         <div className={styles.buttonContainer}>
           <DefaultButton icon={<CirclePlayIcon />} color="purple" />
         </div>
-      </div>
-
-      <div className={styles.formRow}>
-        <Footer></Footer>
       </div>
     </form>
   );

@@ -22,13 +22,13 @@
 }
 
 .workTime {
-  background-color: var(--warning);
+  background-color: var(--primary-light);
 }
 
 .shortBreakTime {
-  background-color: var(--success);
+  background-color: var(--primary-dark);
 }
 
 .longBreakTime {
-  background-color: var(--info);
+  background-color: darkmagenta;
 }
