@@ -26,9 +26,9 @@
 }
 
 .shortBreakTime {
-  background-color: var(--primary-dark);
+  background-color: purple;
 }
 
 .longBreakTime {
-  background-color: darkmagenta;
+  background-color: var(--primary-dark);
 }
