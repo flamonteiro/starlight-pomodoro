@@ -29,7 +29,7 @@
   --text-over-error: #e6e9f0;
   --text-over-info: #0a0f1a;
 
-  --text-default: #e6e9f0;
+  --text-default: #0a0f1a;
   --text-muted: #aab3cc;
 
   --disabled: #555f7d;
@@ -54,7 +54,7 @@
   --link-color: #7f3ab2;
   --link-hover: #5b1c8e;
 
-  --text-default: #0a0f1a;
+  --text-default: #e6e9f0;
   --text-muted: #272f43;
 
   --text-over-primary: #ffffff;
