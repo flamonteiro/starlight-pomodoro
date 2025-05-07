@@ -5,9 +5,10 @@ import {
   SettingsIcon,
   SunIcon,
 } from "lucide-react";
+import { useEffect, useState } from "react";
+import { useTaskContext } from "../../contexts/TaskContext";
 
 import styles from "./styles.module.css";
-import { useEffect, useState } from "react";
 
 type AvailableThemes = "dark" | "light";
 
@@ -37,8 +38,20 @@ export function Menu() {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  const { setState } = useTaskContext();
+
+  function handleClick() {
+    setState((prevState) => {
+      return {
+        ...prevState,
+        formattedSecondsRemaining: "00:00",
+      };
+    });
+  }
+
   return (
     <nav className={styles.menu}>
+      <button onClick={handleClick}>Click</button>
       <a
         className={styles.menuLink}
         href="#"
